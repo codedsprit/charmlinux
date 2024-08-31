@@ -15,10 +15,16 @@
     just
     stylua
     nixfmt-rfc-style
-
     lua-language-server
     nil
 
+    rustscan
+    go
+
+    pfetch-rs
+    mpv
+    gopls
+    nsxiv
   ];
 
 }
