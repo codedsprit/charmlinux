@@ -11,6 +11,7 @@
     fd
     ripgrep
     eza
+    fzf
 
     just
     stylua
@@ -20,11 +21,14 @@
 
     rustscan
     go
+    docker
 
     pfetch-rs
     mpv
     gopls
+    nuclei
     nsxiv
+    amass
   ];
 
 }
