@@ -14,6 +14,8 @@
 
     GOPATH = "${config.xdg.dataHome}/go";
 
+    GOBIN = "${config.xdg.dataHome}/go/bin";
+
     RUSTUP_HOME = "${config.xdg.dataHome}/rustup";
     CARGO_HOME = "${config.xdg.dataHome}/cargo";
 
