@@ -51,6 +51,9 @@
 
       wget = "wget --no-hsts";
       gcl = "git clone --depth=1 --filter=blob:none";
+      gs = "git status";
+      gc = "git commit -am";
+      gd = "git diff";
 
       ".." = "cd ..";
       "..." = "cd ../../";
