@@ -2,7 +2,7 @@
 
 {
   home.sessionVariables = {
-    EDITOR = "nvim";
+    EDITOR = "hx";
     KEYTIMEOUT = 15;
 
     XDG_DATA_HOME = "${config.home.homeDirectory}/.local/share";
@@ -40,8 +40,8 @@
 
     shellAliases = {
       vi = "vi -i NONE";
-      v = "nvim";
-      vim = "nvim";
+      v = "hx";
+      vim = "hx";
 
       cat = "bat";
       ls = "eza --icons  -T -L 1 -x";

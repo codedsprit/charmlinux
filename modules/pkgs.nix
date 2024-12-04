@@ -12,14 +12,22 @@
     ripgrep
     eza
     fzf
+    rio
+    john
+                helix
 
     just
+                radare2
     stylua
+                pwntools
+python312Packages.srvlookup
     nixfmt-rfc-style
     lua-language-server
     nil
     typescript
     mdbook
+    zig_0_11
+    yazi
 
     rustscan
     go
@@ -28,7 +36,7 @@
     rustup
     openssl
 
-    rust-analyzer
+    #rust-analyzer
     pfetch-rs
 
     mpv
