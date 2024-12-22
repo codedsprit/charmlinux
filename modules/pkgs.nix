@@ -7,6 +7,7 @@
     neovim
 
     gnupg
+    gleam
 
     fd
     ripgrep
@@ -14,13 +15,16 @@
     fzf
     rio
     john
-                helix
+    helix
+    marksman
+    markdown-oxide
 
+    obsidian
     just
-                radare2
+    radare2
     stylua
-                pwntools
-python312Packages.srvlookup
+    pwntools
+    python312Packages.srvlookup
     nixfmt-rfc-style
     lua-language-server
     nil
@@ -32,7 +36,7 @@ python312Packages.srvlookup
     rustscan
     go
     docker
-    ghidra
+    #    ghidra
     rustup
     openssl
 

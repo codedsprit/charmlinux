@@ -11,6 +11,8 @@
     ".config/wezterm" = {
       source = ./configs/wezterm;
     };
+    ".tmux.conf" = {
+      source = ./configs/tmux;
+    };
   };
-
 }
