@@ -13,8 +13,6 @@ let
     ./bat.nix
     ./direnv.nix
     ./ssh.nix
-                ./tmux.nix
-                ./alacritty.nix
   ];
 in
 {
