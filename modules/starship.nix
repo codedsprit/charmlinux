@@ -15,7 +15,7 @@ let
 
 in
 {
-  programs.starship = {
+  catppuccin.starship = {
     enable = true;
     enableZshIntegration = true;
 

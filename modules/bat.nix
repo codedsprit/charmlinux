@@ -1,13 +1,13 @@
 { ... }:
 {
-  programs.bat = {
+  catppuccin.bat = {
     enable = true;
 
     config = {
       pager = "less -FR";
     };
 
-    catppuccin = {
+    catppuccin.bat = {
       enable = true;
       flavor = "mocha";
     };

@@ -18,6 +18,7 @@
     helix
     marksman
     markdown-oxide
+                caprine
 
     obsidian
     just
@@ -43,7 +44,6 @@
     #rust-analyzer
     pfetch-rs
 
-    mpv
     gopls
     nuclei
     nsxiv
