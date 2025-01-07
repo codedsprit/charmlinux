@@ -15,7 +15,7 @@ let
 
 in
 {
-  catppuccin.starship = {
+  programs.starship = {
     enable = true;
     enableZshIntegration = true;
 
@@ -28,6 +28,7 @@ in
     settings = {
       scan_timeout = 10;
 
+      #format = lib.concatStrings [ "$directory$git_branch$git_status$character" ];
       format = lib.concatStrings [ "$directory$git_branch$character" ];
 
       right_format = lib.concatStrings [ "$nix_shell" ];
@@ -54,6 +55,23 @@ in
         truncation_symbol = "…/";
         style = "bold green";
       };
+
+      git_status = {
+        format = "[\\($all_status$ahead_behind\\)]($style) ";
+        style = "bold green";
+        conflicted = "󱃞";
+        up_to_date = " ";
+        untracked = " ";
+        ahead = "⇡\${count}";
+        diverged = "⇕⇡\${ahead_count}⇣\${behind_count}";
+        behind = "⇣\${count}";
+        stashed = "󰏗 ";
+        modified = " ";
+        staged = "[++\\($count\\)](green)";
+        renamed = "󰖷 ";
+        deleted = " ";
+      };
+
     };
   };
 }

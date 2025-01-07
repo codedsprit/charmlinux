@@ -2,7 +2,8 @@
 {
   home.packages = with pkgs; [
     # wezterm
-    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+                #(nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    nerd-fonts.jetbrains-mono
     fastfetch
     neovim
 
@@ -31,7 +32,7 @@
     nil
     typescript
     mdbook
-    zig_0_11
+                #zig_0_11
     yazi
 
     rustscan
