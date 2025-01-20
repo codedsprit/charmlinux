@@ -14,14 +14,11 @@
     ripgrep
     eza
     fzf
-    rio
     john
     helix
     marksman
     markdown-oxide
-                caprine
 
-    obsidian
     just
     radare2
     stylua

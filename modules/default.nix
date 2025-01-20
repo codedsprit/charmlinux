@@ -13,6 +13,7 @@ let
     ./bat.nix
     ./direnv.nix
     ./ssh.nix
+    ./yazi.nix
   ];
 in
 {
