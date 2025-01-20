@@ -25,9 +25,9 @@
           ./modules
           catppuccin.homeManagerModules.catppuccin
           {
-            home.username = "sprit";
+            home.username = "codedsprit";
             home.stateVersion = "24.05";
-            home.homeDirectory = "/home/sprit";
+            home.homeDirectory = "/home/codedsprit";
           }
         ];
       };
