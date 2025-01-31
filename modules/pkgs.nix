@@ -18,6 +18,8 @@
     helix
     marksman
     markdown-oxide
+    dprint
+    lldb
 
     just
     radare2
@@ -31,6 +33,8 @@
     mdbook
                 #zig_0_11
     yazi
+    zbar
+    passExtensions.pass-otp
 
     rustscan
     go
